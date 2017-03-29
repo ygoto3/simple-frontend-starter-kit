@@ -1,0 +1,5 @@
+:root {
+  --color-name-black: #333333;
+
+  --text-color-normal: var(--color-name-black);
+}
