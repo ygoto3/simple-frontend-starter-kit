@@ -10,11 +10,11 @@ type User = {
 
 export class App extends React.Component {
 
-  props: {
+  state: {
     user: User;
   }
 
-  state: {
+  props: {
     user: User;
   }
 
@@ -23,12 +23,12 @@ export class App extends React.Component {
   }
 
   state = {
-    user: { name: 'state' }
+    user: { name: 'state' },
   }
 
   render() {
     return (
-      <div className={ styles.container }>
+      <div className={styles.container}>
         <Text>
           { `${this.props.user.name} / ${this.state.user.name}` }
         </Text>

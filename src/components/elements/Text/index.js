@@ -9,3 +9,7 @@ type Props = {
 export const Text = ({ children }: Props) => (
   <span className={styles.text}>{ children }</span>
 );
+
+Text.defaultProps = {
+  children: '',
+};
