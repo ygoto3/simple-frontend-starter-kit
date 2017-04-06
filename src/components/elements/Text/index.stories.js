@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from 'storybook-filepath-chapters';
+import { storiesOf } from '@kadira/storybook';
 import { Text } from './index.js';
 
 storiesOf('Text', module)

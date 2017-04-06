@@ -7,6 +7,8 @@ npm-debug.log
 node_modules/
 build/
 coverage/
+backstop_data/bitmaps_test
+backstop_data/html_report
 
 # Intellij project files
 .idea
