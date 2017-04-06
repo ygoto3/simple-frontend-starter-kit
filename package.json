@@ -12,7 +12,9 @@
     "type": "flow",
     "test": "NODE_ENV=production karma start",
     "test:dev": "NODE_ENV=production karma start --no-single-run",
-    "lint:js": "eslint src/**/*.js"
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "eslint src/**/*.js",
+    "lint:css": "stylelint \"src/**/*.css\""
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -50,6 +52,8 @@
     "react-addons-test-utils": "^15.4.2",
     "skin-deep": "^1.0.0-alpha2",
     "style-loader": "^0.16.1",
+    "stylelint": "^7.10.1",
+    "stylelint-order": "^0.4.3",
     "tape": "^4.6.3",
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"

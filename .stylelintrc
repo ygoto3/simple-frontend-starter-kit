@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-order": [
+      ["composes"],
+      { "unspecified": "bottomAlphabetical" }
+    ]
+  }
+}
