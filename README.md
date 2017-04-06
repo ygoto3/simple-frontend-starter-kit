@@ -43,11 +43,25 @@ Test your application
 $ yarn test
 ```
 
-Continuously test your application while you develop it
+Run unit tests
 ---
 
 ```sh
-$ yarn test:dev
+$ yarn test:unit
+```
+
+Continuously run unit tests while you develop features
+---
+
+```sh
+$ yarn test:unit:dev
+```
+
+Test your components
+---
+
+```sh
+$ yarn test:comp
 ```
 
 Build your application
