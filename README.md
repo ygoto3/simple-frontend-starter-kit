@@ -22,6 +22,13 @@ Develop your application
 $ yarn dev
 ```
 
+Develop your components
+---
+
+```sh
+$ yarn dev:components
+```
+
 Check types
 ---
 
@@ -48,4 +55,11 @@ Build your application
 
 ```sh
 $ yarn build
+```
+
+Build your component list
+---
+
+```sh
+$ yarn build:component-list
 ```
