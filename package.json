@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server --content-base build/",
     "dev:components": "start-storybook -p 9001 -c .storybook",
     "build": "mkdir -p build && cp src/index.html build && webpack",
-    "build:component-list": "build-storybook -c .storybook -o build",
+    "build:component-list": "build-storybook -c .storybook -o build/component-list",
     "type": "flow",
     "test": "NODE_ENV=production karma start",
     "test:dev": "NODE_ENV=production karma start --no-single-run",
